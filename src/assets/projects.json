@@ -1,0 +1,34 @@
+[
+    {
+      "name": "Plattform",
+      "description": "Plattform is a platform for experts to browse & upload smth",
+      "pic": "/platform.png",
+      "tech": ["React", "TypeScript", "Java"],
+      "links": [
+        {
+          "label": "Github",
+          "icon": "github",
+          "url": "https://github.com/wwtraveller/PlattformFront"
+        }
+      ]
+    },
+    {
+        "name": "PostureAI",
+        "description": "PostureAI is an AI powered posture improvement web app, used by 200 monthly active users, that helps you maintain healthy posture while working.",
+        "subtitle": "1st Place in Best Use of GCP",
+        "pic": "/",
+        "tech": ["React", "TypeScript", "Java"],
+        "links": [
+          {
+            "label": "Github",
+            "icon": "github",
+            "url": "https://github.com/wwtraveller/journeyagenda"
+          },
+          {
+            "label": "Website",
+            "icon": "website",
+            "url": "https://www.journeyagenda.com"
+          }
+        ]
+      }
+    ]
