@@ -5,7 +5,7 @@ import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/wwtraveller.github.io",
+  base: ".",
   plugins: [react(), TanStackRouterVite()],
   resolve: {
     alias: {
