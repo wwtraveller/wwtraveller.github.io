@@ -2,11 +2,12 @@
   "name": "portfolio",
   "author": "Alena Shilimova",
   "private": true,
+  "homepage": ".",
   "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "prettier": "prettier --check .",
