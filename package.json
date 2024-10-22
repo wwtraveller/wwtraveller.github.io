@@ -1,14 +1,12 @@
 {
   "name": "portfolio",
   "author": "Alena Shilimova",
-  "homepage": ".",
   "private": true,
   "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "prettier": "prettier --check .",
