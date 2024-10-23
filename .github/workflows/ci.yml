@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pnpm install
+          pnpm install --no-frozen-lockfile
           pnpm run lint
           pnpm run prettier:fix
 
