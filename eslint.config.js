@@ -8,9 +8,9 @@ export default [
   {
     settings: {
       react: {
-        version: "detect" // автоматически определяет версию React
-      }
-    }
+        version: 'detect', // автоматически определяет версию React
+      },
+    },
   },
   {
     ignores: ['public/', 'src/components/ui', 'tailwind.config.js', 'dist/', 'cypress/'],
