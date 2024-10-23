@@ -6,6 +6,13 @@ import pluginReact from 'eslint-plugin-react';
 export default [
   { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
   {
+    settings: {
+      react: {
+        version: "detect" // автоматически определяет версию React
+      }
+    }
+  },
+  {
     ignores: ['public/', 'src/components/ui', 'tailwind.config.js', 'dist/', 'cypress/'],
   },
   { languageOptions: { globals: globals.browser } },
