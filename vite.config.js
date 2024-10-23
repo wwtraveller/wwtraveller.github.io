@@ -10,11 +10,11 @@ const __dirname = path.dirname(__filename);
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '.',
-    plugins: [react(), TanStackRouterVite()],
-    resolve: {
-        alias: {
-            '@': path.resolve(__dirname, './src'),
-        },
+  base: '/wwtraveller.github.io',
+  plugins: [react(), TanStackRouterVite()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
     },
+  },
 });
