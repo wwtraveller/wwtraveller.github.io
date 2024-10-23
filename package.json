@@ -2,7 +2,6 @@
   "name": "portfolio",
   "author": "Alena Shilimova",
   "private": true,
-  "homepage": "/wwtraveller.github.io",
   "version": "3.0.0",
   "type": "module",
   "scripts": {
